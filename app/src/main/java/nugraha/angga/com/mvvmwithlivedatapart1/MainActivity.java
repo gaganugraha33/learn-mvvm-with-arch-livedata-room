@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onChanged(@Nullable List<Note> notes) {
 //                Toast.makeText(MainActivity.this, "Onchanged", Toast.LENGTH_SHORT).show();
-                adapter.setNotes(notes);
+                adapter.submitList(notes);
             }
         });
 
