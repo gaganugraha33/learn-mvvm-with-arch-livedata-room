@@ -1,4 +1,4 @@
-package nugraha.angga.com.mvvmwithlivedatapart1;
+package nugraha.angga.com.mvvmwithlivedatapart1.main;
 
 import android.support.annotation.NonNull;
 import android.support.v7.recyclerview.extensions.ListAdapter;
@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import nugraha.angga.com.mvvmwithlivedatapart1.R;
+import nugraha.angga.com.mvvmwithlivedatapart1.main.model.Note;
 
 public class NoteAdapter extends ListAdapter<Note ,NoteAdapter.NoteHolder> {
     private List<Note> notes = new ArrayList<>();

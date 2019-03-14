@@ -1,10 +1,14 @@
-package nugraha.angga.com.mvvmwithlivedatapart1;
+package nugraha.angga.com.mvvmwithlivedatapart1.main;
 
 import android.app.Application;
 import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
 
 import java.util.List;
+
+import nugraha.angga.com.mvvmwithlivedatapart1.main.model.Note;
+import nugraha.angga.com.mvvmwithlivedatapart1.main.room.NoteDao;
+import nugraha.angga.com.mvvmwithlivedatapart1.main.room.NoteDatabase;
 
 public class NoteRepository {
     private NoteDao noteDao;

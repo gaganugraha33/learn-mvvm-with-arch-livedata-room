@@ -1,4 +1,4 @@
-package nugraha.angga.com.mvvmwithlivedatapart1;
+package nugraha.angga.com.mvvmwithlivedatapart1.main.room;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;
@@ -8,6 +8,8 @@ import android.arch.persistence.room.Query;
 import android.arch.persistence.room.Update;
 
 import java.util.List;
+
+import nugraha.angga.com.mvvmwithlivedatapart1.main.model.Note;
 
 @Dao
 public interface NoteDao {

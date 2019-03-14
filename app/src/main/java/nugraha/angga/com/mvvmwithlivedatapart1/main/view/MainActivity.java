@@ -1,4 +1,4 @@
-package nugraha.angga.com.mvvmwithlivedatapart1;
+package nugraha.angga.com.mvvmwithlivedatapart1.main.view;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
@@ -18,6 +18,12 @@ import android.view.View;
 import android.widget.Toast;
 
 import java.util.List;
+
+import nugraha.angga.com.mvvmwithlivedatapart1.AddEditeNoteAcivity;
+import nugraha.angga.com.mvvmwithlivedatapart1.main.model.Note;
+import nugraha.angga.com.mvvmwithlivedatapart1.main.NoteAdapter;
+import nugraha.angga.com.mvvmwithlivedatapart1.main.viewmodel.NoteViewModel;
+import nugraha.angga.com.mvvmwithlivedatapart1.R;
 
 public class MainActivity extends AppCompatActivity {
     private NoteViewModel noteViewModel;

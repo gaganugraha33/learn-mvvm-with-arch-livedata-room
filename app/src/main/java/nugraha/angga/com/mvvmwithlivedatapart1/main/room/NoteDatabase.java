@@ -1,4 +1,4 @@
-package nugraha.angga.com.mvvmwithlivedatapart1;
+package nugraha.angga.com.mvvmwithlivedatapart1.main.room;
 
 import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.room.Database;
@@ -7,6 +7,8 @@ import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
+
+import nugraha.angga.com.mvvmwithlivedatapart1.main.model.Note;
 
 @Database(entities = {Note.class}, version = 1)
 public abstract class NoteDatabase extends RoomDatabase {
